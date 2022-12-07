@@ -2,38 +2,3 @@
 /* una clase va con "." adelante */
 /* un ID va con # delante */
 
-body{
-    background-color: white; /*color de fondo*/
-    color: black; /*color de fuente*/
-}
-
-#redes {
-    text-align: center; /*texto centrado*/
-    margin: auto; /*margen automatico*/
-}
-
-.ingreso{
-    margin-left: 100%;
-    margin-top: 0; /*margen superior*/
-}
-
-.imgYoProgr{
-    height: 10%;
-    width: 20%;
-    margin: 0 auto;
-    padding: 0;
-}
-
-ul li{
-    list-style-type: none;  /*para las viñetas*/
-    margin-left: 100%; /*margen de la izq*/
-}
-
-.imgPerfil{
-    border-radius: 10%;
-    margin-top: 0rem; /*arriba*/
-}
-
-.NombrePerfil{
-    font-size: 5rem;
-}
