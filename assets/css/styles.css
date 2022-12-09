@@ -1,3 +1,8 @@
 /* etiqueta html va directamente */
 /* una clase va con "." adelante */
 /* un ID va con # delante */
+
+#proyectos{
+    color: white; /*color de las fuentes*/
+    background-color: coral; /*color de fondo*/
+}
