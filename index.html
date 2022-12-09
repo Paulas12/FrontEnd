@@ -13,14 +13,10 @@
 <body>
 
 <section id="navBar"> <!--Barra de navegacion-->
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg bg-black">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">#YoProgramo</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+          <a class="navbar-brand" href="https://argentinaprograma.inti.gob.ar/" target="_blank" id="yoProgramo">#YoProgramo</div><img class="logAp" src="assets/img/logoAP.png" alt="logo-argentina-programa"></a>
+
             <ul class="list-group list-group-horizontal"> <!--redes-->
                 <li class="list-group-item"><i class="fa-brands fa-github"></i></li>
                 <li class="list-group-item"><i class="fa-brands fa-linkedin"></i></li>
@@ -29,6 +25,7 @@
 
             <!-- Button triger (disparador) modal login-->
             <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#loginModal"> Login</button>
+            <button type="button" class="btn btn-dark"> Login Open </button>
           </div>
         </div>
       </nav>
@@ -41,11 +38,12 @@
     <div class="container text-center">
       <div class="row">
         <div class="col-6">
+         
           <h1>Paula Micaela Schuppe</h1>
           <h1>Full Stack developer trainee</h1>
         </div>
         <div class="col-6">
-          <h2>Sobre mi</h2>
+          <h2 class="sobreMi">Sobre mi</h2>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit cupiditate, quaerat dolor placeat hic ut nostrum eos, excepturi ipsam optio alias iste impedit aspernatur odio reiciendis quidem rerum minus necessitatibus.
                 </p>
@@ -58,9 +56,22 @@
         </div>
       </div>
     <div>
+</section>
 
-       
-   
+<section id="editSobre" class="bg-dark p-3"><!--para editarlo en angular-->
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#imgPerfilModal"> Editar imagen</button>
+      </div>
+      <div class="col">
+        <button class="btn btn-light">Editar nombre</button>
+      </div>
+      <div class="col">
+        <button class="btn btn-light">Editar información</button>
+      </div>
+    </div>
+  </div>
 </section>
 
 <!--seccion sobre mi experiencia laboral-->
@@ -87,19 +98,10 @@
 <!--Contacto-->
 <hr> <!--linea-->
 <section>
-    <h1>Contacto</h1>
-    <label for="Mensaje">Dejame tu mensaje</label>
+    <h1 id="contacto" class="text-center">Contacto</h1>
+    <label for="Mensaje" class="text-center mt-4">Dejame tu mensaje</label>
+    <br>
     <input type="text" placeholder="Mensaje"> <!--insertar texto-->
-    <button type="submit">Enviar</button>
-    <br><!--salto de linea-->
-    <br>
-    <label for="">Ingrese su usuario</label>
-    <input type="text" placeholder="Usuario"> <!--insertar texto-->
-    <button type="submit">Enviar</button>
-    <br>
-    <br>
-    <label for="">Ingrese su contraseña</label>
-    <input type="password" placeholder="Contraseña">
     <button type="submit">Enviar</button>
 </section>
 
@@ -121,6 +123,34 @@
                     <div class="mb-3">
                       <label for="exampleInputPassword1" class="form-label">Contraseña</label>
                       <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <button type="submit" class="btn btn-primary">Ingresar</button>
+            </div>
+            </form>
+        </div>  
+    </div>
+  </div>
+</div>  
+
+  <!-- Modal imagen de perfil-->
+  <div class="modal fade" id="imgPerfilModal" tabindex="-1" aria-labelledby="imgPerfilModal aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+             <div class="modal-header">
+                <h1 class="modal-title fs-5" id="imgPerfilModal">Editar imagen</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+             </div>
+            <div class="modal-body">
+
+                <form>
+                    <div class="mb-3">
+                      <label for="imgPerfil" class="form-label">Editar imagen</label>
+                      <input type="url" placeholder="inserte url de imagen" id="imgPerfil" name="imgPerfil" required>
                     </div>
                     
 

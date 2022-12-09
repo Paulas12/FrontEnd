@@ -1,8 +1,24 @@
 /* etiqueta html va directamente */
 /* una clase va con "." adelante */
 /* un ID va con # delante */
+    /*color: white; /*color de las fuentes*/
+    /*background-color: coral; color de fondo*/
 
-#proyectos{
-    color: white; /*color de las fuentes*/
-    background-color: coral; /*color de fondo*/
+h2{
+    color: darkcyan ; 
+}
+
+.sobreMi{
+    color: black;
+}
+
+#contacto{
+    text-align: center;
+}
+
+#yoProgramo{
+    color: darkcyan;
+}
+
+.logoAp{
 }
