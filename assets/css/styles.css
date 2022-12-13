@@ -34,11 +34,35 @@ h2{
 }
 
 .nombre{
-    text-align: justify;
+    margin-right: 20%;
     font-size: 40px;
+    font-style:italic ;
 }
 
 .puesto{
-    text-align: justify;
     font-size: 16px;
+    margin-right: 25%;
+    font-style:italic;
+}
+
+#redes{
+    background-color: darkcyan;
+    color: white;
+}
+
+#educacion {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 1%;
+    margin-bottom: 10px;
+}
+
+.logo{
+    padding: 1%;
+}
+
+.logo:hover {
+    /*filter: grayscale(80%); escala de grises*/
+    filter: opacity(.5);    /*transparencia*/
 }
