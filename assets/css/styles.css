@@ -3,11 +3,16 @@
 /* un ID va con # delante */
     /*color: white; /*color de las fuentes*/
     /*background-color: coral; color de fondo*/
-
-h2{
-    color: darkcyan ; 
+#redes{
+    background-color: darkcyan;
+    color: white;
 }
 
+    h2{
+    color: darkcyan ; 
+    font-size: 50px ;
+    font-variant: small-caps;
+}
 
 #contacto{
     text-align: center;
@@ -29,6 +34,7 @@ h2{
     margin-left: 2cm;
 }
 
+
 .sobreMi{
     color: black;
 }
@@ -45,24 +51,27 @@ h2{
     font-style:italic;
 }
 
-#redes{
-    background-color: darkcyan;
-    color: white;
-}
 
-#educacion {
-    width: 90%;
-    margin: auto;
-    text-align: center;
-    padding: 1%;
-    margin-bottom: 10px;
-}
 
-.logo{
-    padding: 1%;
-}
-
-.logo:hover {
+.col:hover {
     /*filter: grayscale(80%); escala de grises*/
     filter: opacity(.5);    /*transparencia*/
+}
+
+.col{
+    text-align: center;
+
+}
+
+#html{
+    margin-left: 1cm;
+    background-color: orangered ;
+}
+
+#css{
+    background-color: blueviolet;
+}
+
+#java{
+    background-color: green;
 }
