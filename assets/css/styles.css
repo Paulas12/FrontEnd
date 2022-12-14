@@ -3,12 +3,19 @@
 /* un ID va con # delante */
     /*color: white; /*color de las fuentes*/
     /*background-color: coral; color de fondo*/
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 #redes{
     background-color: darkcyan;
     color: white;
 }
 
-    h2{
+h2{
     color: darkcyan ; 
     font-size: 50px ;
     font-variant: small-caps;
@@ -51,8 +58,6 @@
     font-style:italic;
 }
 
-
-
 .col:hover {
     /*filter: grayscale(80%); escala de grises*/
     filter: opacity(.5);    /*transparencia*/
@@ -60,11 +65,9 @@
 
 .col{
     text-align: center;
-
 }
 
 #html{
-    margin-left: 1cm;
     background-color: orangered ;
 }
 
@@ -74,4 +77,8 @@
 
 #java{
     background-color: green;
+}
+
+.progress:hover{
+    box-shadow: 0px 3px 8px 0.5px rgba(0, 0, 0, 2);
 }
