@@ -83,18 +83,18 @@ h2{
 
 
 /*----------------Educacion-----------------*/
-.col:hover {
+.cole:hover {
     /*filter: grayscale(80%); escala de grises*/
     filter: opacity(.5);    /*transparencia*/
 }
 
-.col{
+.cole{
     text-align: center;
 }
 
 
 
-/*-----------Mis habilidades-------------*/
+/*-----------Hard skills-------------*/
 #html{
     background-color: orangered ;
 }
@@ -111,14 +111,9 @@ h2{
     box-shadow: 0px 3px 8px 0.5px rgba(0, 0, 0, 2);
 }
 
-
-/*-----------Contacto-------------*/
-#contacto{
-    text-align: center;
-}
-
-#mensaje{
-    margin-left: 12%;
+/*------Soft skills----------------*/
+#fondo:hover{
+    filter: opacity(.5);
 }
 
 
