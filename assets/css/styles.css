@@ -75,12 +75,17 @@ h2{
     color: black;
 }
 
+/*-------------para editarlo en angular--------------*/
+#editSobre{
+    margin-bottom: 5%;
+}
+
 
 /*----------------Educacion-----------------*/
 #educacion{
     width: 90%;
     margin: auto;
-    
+    margin-bottom: 5%;
 }
 
 .cole:hover {
@@ -101,6 +106,7 @@ h2{
 #hard{
     margin-left: 5%;
     margin-right: 5%;
+    margin-bottom: 5%;
 }
 
 #html{
@@ -122,6 +128,10 @@ h2{
 /*------Soft skills----------------*/
 #fondo:hover{
     filter: opacity(.5);
+}
+
+.blandas{
+    margin-bottom: 5%;
 }
 
 /*-----------Mis proyectos--------*/
