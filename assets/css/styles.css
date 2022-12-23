@@ -78,6 +78,12 @@ h2{
 
 
 /*----------------Educacion-----------------*/
+#educacion{
+    width: 90%;
+    margin: auto;
+    
+}
+
 .cole:hover {
     /*filter: grayscale(80%); escala de grises*/
     filter: opacity(.5);    /*transparencia*/
@@ -87,9 +93,17 @@ h2{
     text-align: center;
 }
 
-
+.card-img-top{
+    width: 90%;
+    margin: auto;
+}
 
 /*-----------Hard skills-------------*/
+#hard{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 #html{
     background-color: orangered ;
 }
@@ -110,7 +124,6 @@ h2{
 #fondo:hover{
     filter: opacity(.5);
 }
-
 
 /*-----------Mis proyectos--------*/
 
