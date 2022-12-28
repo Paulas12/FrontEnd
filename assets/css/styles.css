@@ -1,8 +1,8 @@
 /* etiqueta html va directamente */
 /* una clase va con "." adelante */
 /* un ID va con # delante */
-    /*color: white; /*color de las fuentes*/
-    /*background-color: coral; color de fondo*/
+/*color: white; /*color de las fuentes*/
+/*background-color: coral; color de fondo*/
 
 
 body{
@@ -17,12 +17,17 @@ body{
 #yoProgramo{
     color: darkcyan;
     font-size: 16px; 
-
 }
+
 
 #redes{
     background-color: darkcyan;
     color: white;
+}
+
+#login{
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 
@@ -51,7 +56,7 @@ body{
 }
 
 .puesto{
-    font-size: 16px;
+    font-size: 18px;
     margin-right: 25%;
     font-style:italic;
 }
@@ -95,6 +100,7 @@ h2{
 
 .cole{
     text-align: center;
+    font-size: 18px;
 }
 
 .card-img-top{
@@ -106,7 +112,6 @@ h2{
 #hard{
     margin-left: 5%;
     margin-right: 5%;
-    margin-bottom: 5%;
 }
 
 #html{
@@ -122,7 +127,7 @@ h2{
 }
 
 .progress:hover{
-    box-shadow: 0px 3px 8px 0.5px rgba(0, 0, 0, 2);
+    box-shadow: 0px 3px 8px 0.5px rgb(141, 140, 140);
 }
 
 /*------Soft skills----------------*/
@@ -131,10 +136,22 @@ h2{
 }
 
 .blandas{
-    margin-bottom: 5%;
+    margin-bottom: 3%;
+    font-size: 18px;
 }
 
 /*-----------Mis proyectos--------*/
+#card{
+    margin-top: 2%;
+}
+
+.descripcion{
+    font-size: 18px;
+}
+
+#img:hover{
+    box-shadow: 0px 3px 8px 0.5px rgb(141, 140, 140);
+}
 
 /*-----------Modal login----------*/
 
