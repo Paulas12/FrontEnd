@@ -1,16 +1,8 @@
-/* etiqueta html va directamente */
-/* una clase va con "." adelante */
-/* un ID va con # delante */
-/*color: white; /*color de las fuentes*/
-/*background-color: coral; color de fondo*/
-
-
 body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
 }
-
 
 
 /*----Barra de navegacion----*/
