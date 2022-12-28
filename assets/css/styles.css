@@ -11,10 +11,8 @@ body{
     font-size: 16px; 
 }
 
-
 #redes{
     background-color: darkcyan;
-    color: white;
 }
 
 #login{
@@ -63,8 +61,7 @@ h2{
     border-radius: 35px 0px 35px 0px;
     -moz-border-radius: 35px 0px 35px 0px;
     -webkit-border-radius: 35px 0px 35px 0px;
-    border: 2px solid #5878ca;
-    background-color: #a9b0c4;
+    border: 3px solid #5878ca;
     margin-bottom: 3%;
 }
 
