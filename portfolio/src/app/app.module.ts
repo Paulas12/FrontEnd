@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { EducacionComponent } from './componentes/educacion/educacion.component';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
-import { HeaderComponent } from './componentes/header/header.component';
 import { BannerComponent } from './componentes/banner/banner.component';
 import { NavBarComponent } from './componentes/nav-bar/nav-bar.component';
 import { SobreMiComponent } from './componentes/sobre-mi/sobre-mi.component';
@@ -16,6 +15,8 @@ import { ModalImgPerfilComponent } from './componentes/modal-img-perfil/modal-im
 import { ModalNombreComponent } from './componentes/modal-nombre/modal-nombre.component';
 import { ModalInfoComponent } from './componentes/modal-info/modal-info.component';
 import { FinComponent } from './componentes/fin/fin.component';
+import { EditAngularComponent } from './componentes/edit-angular/edit-angular.component';
+import { IndexComponent } from './componentes/index/index.component';
 
 
 
@@ -24,7 +25,6 @@ import { FinComponent } from './componentes/fin/fin.component';
     AppComponent,
     EducacionComponent,
     ProyectosComponent,
-    HeaderComponent,
     BannerComponent,
     NavBarComponent,
     SobreMiComponent,
@@ -35,7 +35,8 @@ import { FinComponent } from './componentes/fin/fin.component';
     ModalNombreComponent,
     ModalInfoComponent,
     FinComponent,
-    
+    EditAngularComponent,
+    IndexComponent,
   ],
   imports: [
     BrowserModule,
