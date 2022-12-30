@@ -12,8 +12,8 @@
 </head>
 <body>
 
+  <!----------Barra de navegacion---->
 <header>
-<!----------Barra de navegacion---->
   <section id="navBar"> 
       <nav class="navbar navbar-expand-lg bg-black">
           <div class="container-fluid logoAP-texto">
@@ -26,25 +26,25 @@
               </ul>
 
               <!-- Button triger (disparador) modal login-->
-            <button id="login" type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+          <button id="login" type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
       </nav>
   </section>
 
   <!------------------Banner------------------>
   <section>
     <div class="banner">
-    <div class="row">
-      <div class="banner">
-        <img src="assets/img/banner.jpg" alt="custom-banner" class="img-fluid">
+      <div class="row">
+        <div class="banner">
+          <img src="assets/img/banner.jpg" alt="custom-banner" class="img-fluid">
+        </div>
       </div>
-    </div>
     </div>
   </section>
 </header>
 
 <!-----------------Sobre mi----------->
 <section>
-  <div id="perfil"></div>
+  <div id="perfil">
     <img src="assets/img/Foto portada.jpeg" alt="Foto-perfil" class="imgPerfil">
     <div class="container text-center">
       <div class="row">
@@ -171,33 +171,29 @@
 <!-----------Hards skills------------->
 <section id="hard" class="border text-center mt-4 pb-3">
 	<h2 class="section-title">Hard Skills</h2>
-    <br>
-				<div class="row">
-						<div class="col-md-4">
-							<div id="skill-html">
-								<h4>HTML 5</h4>
-								<div class="progress">
-									<div class="progress-bar progress-bar-animated progress-bar-striped" role="progressbar" style="width: 40%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" id="html">40%</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div id="skill-css">
-								<h4>CSS 3</h4>
-								<div class="progress">
-									<div class="progress-bar progress-bar-animated progress-bar-striped" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" id="css">50%</div>
-								</div>
-							</div>
-						</div>
-            <div class="col-md-4">
-							<div id="skill-java">
-								<h4>JAVA</h4>
-								<div class="progress">
-									<div class="progress-bar progress-bar-animated progress-bar-striped" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemax="100" id="java">70%</div>
-								</div>
-							</div>
-						</div>
-					</div>
+  <br>
+	<div class="row">
+		<div class="col-md-4">
+			<div id="skill-html">
+				<h4>HTML 5</h4>
+				<div class="progress">
+					<div class="progress-bar progress-bar-animated progress-bar-striped" role="progressbar" style="width: 40%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" id="html">40%</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div id="skill-css">
+				<h4>CSS 3</h4>
+				<div class="progress">
+					<div class="progress-bar progress-bar-animated progress-bar-striped" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" id="css">50%</div>
+				</div>
+			</div>
+		</div>
+        <div class="col-md-4">
+			<div id="skill-java">
+				<h4>JAVA</h4>
+				<div class="progress">
+					<div class="progress-bar progress-bar-animated progress-bar-striped" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemax="100" id="java">70%</div>
 				</div>
 			</div>
 		</div>
@@ -209,80 +205,79 @@
 <!-----------Softs skills------------->
 <section class="border text-center mt-4 pb-3">
   <div class="container">
-    <div class="row">
-        <div class="col mx-auto m-0" id="softs">
+      <div class="row">
+          <div class="col mx-auto m-0" id="softs">
           <h2>Soft Skills</h2>
-            <div class="blandas">
-                <ul class="list-group list-group-flush ml-2" id="items">
-                    <li class="list-group-item" id="fondo">Capacidad para trabajar en equipo</li>
-                    <li class="list-group-item" id="fondo">Capacidad para integración y comunicación
-                    </li>
-                    <li class="list-group-item" id="fondo">Resolución de problemas</li>
-                    <li class="list-group-item" id="fondo">Aprendizaje constante</li>
-                    <li class="list-group-item" id="fondo">Autodisciplina</li>
-                    <li class="list-group-item" id="fondo">Compromiso</li>
-                    <li class="list-group-item" id="fondo">Responsabilidad</li>
-                    <li class="list-group-item" id="fondo"><strong>Inglés:</strong> Intermedio
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
+              <div class="blandas">
+                  <ul class="list-group list-group-flush ml-2" id="items">
+                      <li class="list-group-item" id="fondo">Capacidad para trabajar en equipo</li>
+                      <li class="list-group-item" id="fondo">Capacidad para integración y comunicación
+                      </li>
+                      <li class="list-group-item" id="fondo">Resolución de problemas</li>
+                      <li class="list-group-item" id="fondo">Aprendizaje constante</li>
+                      <li class="list-group-item" id="fondo">Autodisciplina</li>
+                      <li class="list-group-item" id="fondo">Compromiso</li>
+                      <li class="list-group-item" id="fondo">Responsabilidad</li>
+                      <li class="list-group-item" id="fondo"><strong>Inglés:</strong> Intermedio</li>
+                  </ul>
+              </div>
+          </div>
+      </div>
   </div>    
 </section>
 
 
 <!-------Proyectos-------->
 <section id="proyectos" class="border text-center mt-4 pb-3">
-    <h2>Proyectos</h2>
-    <div class="container text-center">
+  <h2>Proyectos</h2>
+  <div class="container text-center">
       <div class="row align-items-start" id="card">
-        <div class="col" id="img">
-          <h3><a href="https://github.com/Paulas12/Barberia-Alura-" target="_blank">Barbería "Alura"</a></h3> 
-          <p class="descripcion">Tienda desarrollada en HTML y CSS.</p>
-          <a href="https://github.com/Paulas12/Barberia-Alura-" target="_blank"><img src="assets/img/logo.png" class="card-img-top" style="height: 180px; width: 150px;" ></a>
-        </div>
-        <div class="col" id="img">
-          <h3><a href="https://github.com/Paulas12/FrontEnd" target="_blank">Portfolio web-FrontEnd</a></h3> 
-          <p class="descripcion">Frontend realizado con Angular como proyecto final de Argentina Programa - #YoProgramo.</p>
-          <a href="https://github.com/Paulas12/FrontEnd" target="_blank"><img src="assets/img/FrontEnd.jpeg" class="card-img-top" style="height: 150px; width: 340px;"></a>
-        </div>
-        <div class="col" id="img">
-          <h3><a href="https://github.com/Paulas12/Portfolio-BackEnd" target="_blank">Portfolio web-BackEnd</a></h3> 
-          <p class="descripcion">Backend realizado con Java como proyecto final de Argentina Programa - #YoProgramo.</p>
-        </div>
+          <div class="col" id="img">
+              <h3><a href="https://github.com/Paulas12/Barberia-Alura-" target="_blank">Barbería "Alura"</a></h3> 
+              <p class="descripcion">Tienda desarrollada en HTML y CSS.</p>
+              <a href="https://github.com/Paulas12/Barberia-Alura-" target="_blank"><img src="assets/img/logo.png" class="card-img-top" style="height: 180px; width: 150px;" ></a>
+          </div>
+          <div class="col" id="img">
+              <h3><a href="https://github.com/Paulas12/FrontEnd" target="_blank">Portfolio web-FrontEnd</a></h3> 
+              <p class="descripcion">Frontend realizado con Angular como proyecto final de Argentina Programa - #YoProgramo.</p>
+              <a href="https://github.com/Paulas12/FrontEnd" target="_blank"><img src="assets/img/FrontEnd.jpeg" class="card-img-top" style="height: 150px; width: 340px;"></a>
+          </div>
+          <div class="col" id="img">
+              <h3><a href="https://github.com/Paulas12/Portfolio-BackEnd" target="_blank">Portfolio web-BackEnd</a></h3> 
+              <p class="descripcion">Backend realizado con Java como proyecto final de Argentina Programa - #YoProgramo.</p>
+          </div>
       </div>
-    </div> 
+  </div> 
 </section>
 <br>
 <br>
 
   <!-- Modal login -->
 <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-      <div class="modal-content">
-          <div class="modal-header">
-              <h1 class="modal-title fs-5" id="loginModalLabel">Login</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-              <form>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                  <button type="submit" class="btn btn-primary">Ingresar</button>
-                </div>
-              </form>
-          </div>  
-      </div>
-  </div>
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="loginModalLabel">Login</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                        <button type="submit" class="btn btn-primary">Ingresar</button>
+                    </div>
+                </form>
+            </div>  
+        </div>
+    </div>
 </div>  
 
   <!-- Modal imagen de perfil -->
@@ -296,18 +291,18 @@
             <div class="modal-body">
                 <form>
                     <div class="mb-3">
-                      <label for="imgPerfil" class="form-label">Editar imagen:</label>
-                      <input type="url" placeholder="inserte url de imagen" id="imgPerfil" name="imgPerfil" required>
+                        <label for="imgPerfil" class="form-label">Editar imagen:</label>
+                        <input type="url" placeholder="inserte url de imagen" id="imgPerfil" name="imgPerfil" required>
                     </div>
+                    
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                        <button type="submit" class="btn btn-primary">Ingresar</button>
+                    </div>
+                </form>
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                <button type="submit" class="btn btn-primary">Ingresar</button>
-            </div>
-            </form>
         </div>  
     </div>
-  </div>
 </div> 
 
 <!-- Modal nombre-->
@@ -321,18 +316,17 @@
           <div class="modal-body">
               <form>
                   <div class="mb-3">
-                    <label for="nombreModal" class="form-label">Ingrese nombre:</label>
-                    <input type="text" placeholder="example name" name="nombre" required>
+                      <label for="nombreModal" class="form-label">Ingrese nombre:</label>
+                      <input type="text" placeholder="example name" name="nombre" required>
                   </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                      <button type="submit" class="btn btn-primary">Ingresar</button>
+                  </div>
+              </form>
           </div>
-          <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-              <button type="submit" class="btn btn-primary">Ingresar</button>
-          </div>
-          </form>
       </div>  
   </div>
-</div>
 </div> 
 
 <!-- Modal información-->
@@ -346,21 +340,23 @@
           <div class="modal-body">
               <form>
                   <div class="mb-3">
-                    <label for="infoModal" class="form-label">Ingrese información:</label>
-                    <input type="text" placeholder="example info" name="Información" required>
+                      <label for="infoModal" class="form-label">Ingrese información:</label>
+                      <input type="text" placeholder="example info" name="Información" required>
                   </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                      <button type="submit" class="btn btn-primary">Ingresar</button>
+                  </div>
+              </form>
           </div>
-          <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-              <button type="submit" class="btn btn-primary">Ingresar</button>
-          </div>
-          </form>
       </div>  
   </div>
 </div>
 
-<hr>
-<p style="margin-left: 2%; margin-top: auto; font-size: 13px; font-style: italic;">Paula Micaela Schuppe | © Argentina Programa 2022-2023</p>
+<!--Fin de página-->
+<div>
+    <hr>
+    <p style="margin-left: 2%; margin-top: auto; font-size: 13px; font-style: italic;">Paula Micaela Schuppe | © Argentina Programa 2022-2023</p>
 </div> 
 
 <!-- JavaScript Bundle with Popper -->
