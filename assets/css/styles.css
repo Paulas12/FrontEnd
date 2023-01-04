@@ -1,7 +1,13 @@
-body{
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
+header{
+    background-color: white;
+}
+
+
+body{    
+    background-color: rgb(42, 181, 181);
+    background-size:cover;
+    margin: 1rem;
+    margin-bottom: 0;
 }
 
 
@@ -19,7 +25,6 @@ body{
     margin-left: 2%;
     margin-right: 2%;
 }
-
 
 /*------------------Banner------------------*/
 .banner{            /*se edita la distancia de foto de perfil sobre el banner*/
@@ -67,11 +72,6 @@ h2{
 
 .sobreMi{
     color: black;
-}
-
-/*-------------para editarlo en angular--------------*/
-#editSobre{
-    margin-bottom: 5%;
 }
 
 
@@ -129,7 +129,7 @@ h2{
     font-size: 18px;
 }
 
-/*-----------Pproyectos--------*/
+/*-----------Proyectos--------*/
 #card{
     margin-top: 2%;
 }

@@ -10,10 +10,12 @@
     <link rel="stylesheet" href="assets/css/styles.css">
     <title>Portfolio Paula Micaela Schuppe</title>
 </head>
+
+<header>
 <body>
   <!----------Barra de navegacion---->
   <section id="navBar"> 
-      <nav class="navbar navbar-expand rounded bg-black"> <!---->
+      <nav class="navbar navbar-expand-lg bg-black"> <!---->
           <div class="container-fluid">
             <a class="navbar-brand" href="https://argentinaprograma.inti.gob.ar/" target="_blank" id="yoProgramo"><img class="logAp" src="assets/img/logoAP.png" alt="logo-argentina-programa" style="height: 1.3cm; width: 4cm"><span><strong> #YoProgramo </strong></span></a>
           </div>
@@ -29,13 +31,10 @@
 
   <!------------------Banner------------------>
   <section>
-    <div class="banner">
-      <div class="row">
-        <div class="banner">
-          <img src="assets/img/banner.jpg" alt="custom-banner" class="img-fluid">
-          <!-- Button trigger modal -->
-          <button type="button" id="btn" data-bs-toggle="modal" data-bs-target="#bannerModal" class="btn btn-close-white editBanner"><i class="fa-solid fa-pencil"></i></button> 
-        </div>
+    <div class="banner" id="bannerModal">
+      <div class="row bg-body-transparent">
+        <img src="assets/img/Banner.jpg" alt="banner" class="img-fluid">
+        <button type="button" id="btn" data-bs-toggle="modal" data-bs-target="#bannerModal" class="btn btn-close-black"><i class="fa-solid fa-pencil"></i></button> 
       </div>
     </div>
   </section>
@@ -43,51 +42,37 @@
 
 <!-----------------Sobre mi ----------->
 <section>
-  <div id="perfil">
+  <div id="perfilInfo" class="seccion container-fluid rounded shadow-sm mb-5 bg-body-transparent p-0">
       <img src="assets/img/Foto portada.jpeg" alt="Foto-perfil" class="imgPerfil">
-<!-- Button trigger modal img perfil--> 
-      <button type="button" id="btn" data-bs-toggle="modal" data-bs-target="#profileModal" class="btn btn-close-white"><i class="fa-solid fa-pencil"></i></button>
-      
+      <button type="button" id="btn" data-bs-toggle="modal" data-bs-target="#imgPerfilModal" class="btn btn-close-white"><i class="fa-solid fa-pencil"></i></button>
       <div class="container text-center">
           <div class="row">
               <div class="col-6">
                   <h1 class="nombre">Paula Micaela Schuppe</h1>
                   <h1 class="puesto">Full Stack developer trainee</h1>
               </div>
-              <div id="sobreMi" class="col-6">
-                  <h2 class="sobreMi">Sobre mi</h2>
+              <!-- Button trigger modal perfil--> 
+              <div id="sobreMi" class="col-6"><!--------- Button trigger modal ------------>  
+                  <h2 class="sobreMi">Sobre mi <button type="button" id="btn" data-bs-toggle="modal" data-bs-target="#sobreMiModal" class="btn btn-close-black"><i class="fa-solid fa-pencil"></i></button></h2>
                   <p>
                   Tengo 26 años, vivo en la ciudad de Posadas, provincia de Misiones, Argentina.  
                   Soy una persona curiosa y me gusta resolver problemas. Aprender hace parte de mi día a día y los desafíos me motivan a encontrar las mejores soluciones. 
                   </p>
               </div>
           </div>
-          
       </div>
   </div>
 </section>
 
-<!-------------Para editarlo en angular-------------->
-<section id="editSobre" class="bg-dark p-3">  
-  <div class="container text-center">
-      <div class="row">
-          <div class="col">
-          <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#imgPerfilModal">Editar imagen</button>
-          </div>
-          <div class="col">
-          <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#nombreModal">Editar nombre</button>
-          </div>
-          <div class="col">
-          <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#infoModal">Editar información</button>
-          </div>
-      </div>
-  </div>
-</section> 
-
-
 <!----------------Educacion----------------->
-<section id="educacion" class="border text-center mt-4 pb-3"> 
-    <h2 class="educacion">Educación</h2>
+<section id="educacion" class="border text-center mt-4 pb-3" > 
+      <h2 class="educacion">Educación</h2>
+      <!-- Button trigger modal --> 
+      <div class="d-flex col-auto mt-2">
+        <button type="button"  data-bs-toggle="modal" data-bs-target="#educacionModal" class="btn btn-close-black"><i class="fa-solid fa-pencil"></i></button>
+        <button type="submit" class="btn btn-close-black"><i class="fa-solid fa-trash-can"></i></button>
+        <button type="submit" class="btn btn-close-black"><i class="fa-solid fa-plus"></i></button>
+      </div>
       <div class="card-group row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-lg-4 g-5">
         <div class="cole">
           <div class="card">
@@ -175,6 +160,12 @@
 <!-----------Hards skills------------->
 <section id="hard" class="border text-center mt-4 pb-3">
 	<h2 class="section-title">Hard Skills</h2>
+  <!----- Button trigger modal hard --> 
+  <div class="d-flex col-auto mt-2">
+    <button type="button"  data-bs-toggle="modal" data-bs-target="#habilidadesModal" class="btn btn-close-black"><i class="fa-solid fa-pencil"></i></button>
+    <button type="submit" class="btn btn-close-black"><i class="fa-solid fa-trash-can"></i></button>
+    <button type="submit" class="btn btn-close-black"><i class="fa-solid fa-plus"></i></button>
+  </div>
   <br>
 	<div class="row">
 		<div class="col-md-4">
@@ -211,8 +202,14 @@
   <div class="container">
       <div class="row">
           <div class="col mx-auto m-0" id="softs">
-          <h2>Soft Skills</h2>
-              <div class="blandas">
+            <h2>Soft Skills</h2>
+ <!----- Button trigger modal  soft--> 
+            <div class="d-flex col-auto mt-2">
+              <button type="button" data-bs-toggle="modal" data-bs-target="#softModal" class="btn btn-close-black"><i class="fa-solid fa-pencil"></i></button>
+              <button type="submit" class="btn btn-close-black"><i class="fa-solid fa-trash-can"></i></button>
+              <button type="submit" class="btn btn-close-black"><i class="fa-solid fa-plus"></i></button>
+            </div>
+            <div class="blandas">
                   <ul class="list-group list-group-flush ml-2" id="items">
                       <li class="list-group-item" id="fondo">Capacidad para trabajar en equipo</li>
                       <li class="list-group-item" id="fondo">Capacidad para integración y comunicación
@@ -230,10 +227,15 @@
   </div>    
 </section>
 
-
 <!-------Proyectos-------->
 <section id="proyectos" class="border text-center mt-4 pb-3">
   <h2>Proyectos</h2>
+  <!------ Button trigger proyectos -->
+  <div class="d-flex col-auto mt-2">
+      <button type="button"  data-bs-toggle="modal" data-bs-target="#proyectosModal" class="btn btn-close-black"><i class="fa-solid fa-pencil"></i></button>
+      <button type="submit" class="btn btn-close-black"><i class="fa-solid fa-trash-can"></i></button>
+      <button type="submit" class="btn btn-close-black"><i class="fa-solid fa-plus"></i></button>
+  </div>
   <div class="container text-center">
       <div class="row align-items-start" id="card">
           <div class="col" id="img">
@@ -255,7 +257,9 @@
 </section>
 <br>
 <br>
-<!------------------------------------- MODALES -------------------------------------------------------------------------->
+
+
+<!------------------------------------- MODALES --------------------------->
   <!-- Modal login -->
 <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -267,16 +271,16 @@
             <div class="modal-body">
                 <form>
                     <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <label for="loginEmail1" class="form-label">Email</label>
+                        <input type="email" placeholder="example@email.com" class="form-control" id="loginEmail" aria-describedby="emailHelp">
                     </div>
                     <div class="mb-3">
-                        <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1">
+                        <label for="loginPassword1" class="form-label">Contraseña</label>
+                        <input type="password" placeholder="example_password" class="form-control" id="loginPassword">
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                        <button type="submit" class="btn btn-primary">Ingresar</button>
+                      <button type="submit" class="btn btn-primary">Iniciar sesión</button>  
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
                     </div>
                 </form>
             </div>  
@@ -284,84 +288,281 @@
     </div>
 </div>  
 
-  <!-- Modal imagen de perfil -->
-<div class="modal fade" id="imgPerfilModal" tabindex="-1" aria-labelledby="imgPerfilModal aria-hidden=true">
+<!-- Modal Banner -->
+<div class="modal fade" id="bannerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Editar banner</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <form name="bannerForm"> 
+              <!-- formulario de banner-->
+              <div class="mb-3">
+                <label for="bannerImg" class="form-label">Modificar imagen de banner:</label>
+                <input class="form-control" type="file" id="bannerImg">
+              </div>
+          </form>
+      </div>
+      <div class="modal-footer">
+          <button type="submit" class="btn btnLogin" data-bs-dismiss="modal">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Modal Perfil(foto, nombre y titulo)-->
+<div class="modal fade" id="imgPerfilModal" tabindex="-1" aria-labelledby="imgPerfilModal" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="imgPerfilModal">Editor de imagen</h1>
+                <h5 class="modal-title" id="exampleModalLabel">Editar perfil</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <form>
+                  <!-- formulario de perfil-->
                     <div class="mb-3">
-                        <label for="imgPerfil" class="form-label">Editar imagen:</label>
-                        <input type="url" placeholder="inserte url de imagen" id="imgPerfil" name="imgPerfil" required>
+                        <label for="imgPerfil" class="form-label">Modificar imagen de perfil:</label>
+                        <input class="form-control" placeholder="inserte imagen" type="file" id="imgPerfil" required>
                     </div>
-                    
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                        <button type="submit" class="btn btn-primary">Ingresar</button>
+                    <div class="mb-3">
+                      <label for="perfilNombre" class="form-label">Modificar nombre:</label>
+                      <input type="text" class="form-control" id="perfilNombre" placeholder="Nombre nuevo" >
+                    </div>
+                    <div class="mb-3">
+                      <label for="perfilTitulo" class="form-label">Modificar titulo:</label>
+                      <input type="text" class="form-control" id="perfilTitulo" placeholder="Título nuevo">
                     </div>
                 </form>
             </div>
+            <div class="modal-footer">
+              <button type="submit" class="btn btn-primary">Guardar</button>
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+          </div>
         </div>  
     </div>
 </div> 
 
-<!-- Modal nombre-->
-<div class="modal fade" id="nombreModal" tabindex="-1" aria-labelledby="nombreModal aria-hidden=true">
+<!-- Modal Sobre Mi -->
+<div class="modal fade" id="sobreMiModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
-      <div class="modal-content">
-          <div class="modal-header">
-              <h1 class="modal-title fs-5" id="nombreModal">Editor de nombre</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-              <form>
-                  <div class="mb-3">
-                      <label for="nombreModal" class="form-label">Ingrese nombre:</label>
-                      <input type="text" placeholder="example name" name="nombre" required>
-                  </div>
-                  <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                      <button type="submit" class="btn btn-primary">Ingresar</button>
-                  </div>
-              </form>
-          </div>
-      </div>  
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Editar texto</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <form name="sobreMiFrom"> 
+              <!-- formulario de Sobre Mi-->
+              <div class="mb-3">
+                <label for="habilidadNombre" class="form-label">Modificar titulo:</label>
+                <input type="text" class="form-control" id="habilidadNombre" placeholder="Nuevo titulo">
+              </div>
+              <div class="mb-3">
+                <label for="sobreMiTexto" class="form-label">Modificar texto: </label>
+                <textarea class="form-control" id="sobreMiTexto" rows="3"></textarea>
+            </div>
+          </form>
+      </div>
+      <div class="modal-footer">
+          <button type="submit" class="btn btn-primary">Guardar</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+      </div>
+    </div>
   </div>
-</div> 
+</div>
 
-<!-- Modal información-->
-<div class="modal fade" id="infoModal" tabindex="-1" aria-labelledby="infoModal aria-hidden=true">
+<!-- Modal Educación -->
+<div class="modal fade" id="educacionModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
-      <div class="modal-content">
-          <div class="modal-header">
-              <h1 class="modal-title fs-5" id="infoModal">Editor de información</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-              <form>
-                  <div class="mb-3">
-                      <label for="infoModal" class="form-label">Ingrese información:</label>
-                      <input type="text" placeholder="example info" name="Información" required>
-                  </div>
-                  <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                      <button type="submit" class="btn btn-primary">Ingresar</button>
-                  </div>
-              </form>
-          </div>
-      </div>  
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Editar educación</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- formulario de educación-->
+          <form name="educacionForm"> 
+              <div class="mb-3">
+                <label for="educacion" class="form-label">Modificar instituto educativo:</label>
+                <input type="text" class="form-label" id="educacion" placeholder="Insitucion de estudios">
+              </div>
+              <div class="mb-3">
+                <label for="educacionUrl" class="form-label">Modificar url de educación:</label>
+                <input class="form-control" type="url" id="educacionUrl" placeholder="Url educativo">
+              </div>
+              <div class="mb-3">
+                <label for="educacionImg" class="form-label">Modificar logo de instituto:</label>
+                <input class="form-control" type="file" id="educacionImg" > 
+              </div>
+              <div class="mb-3">
+                <label for="educacionEstudio" class="form-label">Modificar estudio:</label>
+                <input type="text" class="form-control" id="educacionEstudio" placeholder="Ingrese nombre">
+              </div>
+              <div class="mb-3">
+                <label for="educacionPeriodoInicio" class="form-label">Modificar periodo inicio:</label>
+                <input type="date" class="form-control" id="educacionPeriodoInicio">
+              </div>
+              <div class="mb-3">
+                <label for="educacionPeriodoFin" class="form-label">Modificar periodo fin:</label>
+                <input type="date" class="form-control" id="educacionPeriodoFin">
+              </div>
+              <div class="mb-3">
+                  <label for="educacionInfo" class="form-label">Modificar información de estudio realizado:</label>
+                  <textarea class="form-control" id="educacionInfo" rows="3"></textarea>
+              </div>
+          </form>
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn btnAgree btn-primary" data-bs-dismiss="modal">Agregar</button>
+        <button type="submit" class="btn btnDelete btn-secondary" data-bs-dismiss="modal">Borrar</button>  
+        <button type="submit" class="btn btnMod btn" data-bs-dismiss="modal">Modificar</button>   
+        <button type="submit" class="btn btnLogin btn-primary" data-bs-dismiss="modal">Guardar</button> 
+        <button type="submit" class="btn btnCancel btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Habilidades hard skills-->
+<div class="modal fade" id="habilidadesModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Editar habilidad</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <form name="habilidadesForm"> 
+              <!-- formulario de habilidad-->
+            <div class="mb-3">
+              <label for="habilidadNombre" class="form-label">Seleccionar habilidad: </label>
+              <select class="form-select" id="habilidadId">
+                <option>Seleccionar</option>
+                <option value="1">HTML</option>
+                <option value="2">Java</option>
+                <option value="3">CSS</option>
+                <option value="4">JavaScript</option>
+                <option value="5">PHP</option>
+                <option value="6">Phyton</option>
+                <option value="7">Github</option>
+                <option value="8">TypeScript</option>
+                <option value="9">Git</option>
+                <option value="10">Base de datos</option>
+              </select>
+            </div>            
+              <div class="mb-3">
+                <label for="habilidadNombre" class="form-label">Modificar habilidad: </label>
+                <input type="text" class="form-control" id="habilidadNombre" placeholder="Nombre nuevo">
+              </div>
+                <label for="habilidadPorcentaje" class="form-label">Modificar porcentaje de manejo (escala 0-100):</label>
+                <input type="number" min="0" max="100" id="habilidadPorcentaje">
+          </form>
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn btnAgree btn-primary" data-bs-dismiss="modal">Agregar</button>
+        <button type="submit" class="btn btnDelete btn-secondary" data-bs-dismiss="modal">Borrar</button>  
+        <button type="submit" class="btn btnMod btn" data-bs-dismiss="modal">Modificar</button>   
+        <button type="submit" class="btn btnLogin btn-primary" data-bs-dismiss="modal">Guardar</button> 
+        <button type="submit" class="btn btnCancel btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Habilidades softs skills-->
+<div class="modal fade" id="softModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Editar habilidad</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <form name="habilidadesForm"> 
+              <!-- formulario de habilidad-->
+            <div class="mb-3">           
+              <div class="mb-3">
+                <label for="habilidadNombre" class="form-label">Modificar habilidad: </label>
+                <input type="text" class="form-control" id="habilidadNombre" placeholder="Nombre nuevo">
+              </div>
+          </form>
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn btnAgree btn-primary" data-bs-dismiss="modal">Agregar</button>
+        <button type="submit" class="btn btnDelete btn-secondary" data-bs-dismiss="modal">Borrar</button>   
+        <button type="submit" class="btn btnLogin btn-primary" data-bs-dismiss="modal">Guardar</button> 
+        <button type="submit" class="btn btnCancel btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal Proyectos -->
+<div class="modal fade" id="proyectosModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Editar proyectos</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <form name="proyectosForm"> 
+              <!-- formulario de proyectos-->
+              <div class="mb-3">
+              <select class="form-select" id="proyectoId">
+                <option selected>Seleccionar proyecto:</option>
+                <option value="1">ID1</option>
+                <option value="2">ID2</option>
+                <option value="3">ID3</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="proyectoUrl" class="form-label">Modificar url del proyecto:</label>
+              <input class="form-control" type="url" id="proyectoUrl">
+            </div>
+              <div class="mb-3">
+                <label for="proyectoImg" class="form-label">Modificar logo del proyecto:</label>
+                <input class="form-control" type="file" id="proyectoImg">
+              </div>
+              <div class="mb-3">
+                <label for="proyectoNombre" class="form-label">Modificar nombre del proyecto:</label>
+                <input type="text" class="form-control" id="proyectoNombre" placeholder="Nombre nuevo">
+              </div>
+              <div class="mb-3">
+                <label for="proyectoPeriodoInicio" class="form-label">Modificar periodo de inicio:</label>
+                <input type="date" class="form-control" id="proyectoPeriodoInicio">
+              </div>
+              <div class="mb-3">
+                <label for="proyectoPeriodoFin" class="form-label">Modificar periodo de fin:</label>
+                <input type="date" class="form-control" id="proyectoPeriodoFin">
+              </div>
+              <div class="mb-3">
+                  <label for="proyectoInfo" class="form-label">Modificar información del proyecto realizado:</label>
+                  <textarea class="form-control" id="proyectoInfo" rows="3"></textarea>
+              </div>
+          </form>
+      </div>
+      <div class="modal-footer">
+        
+        <button type="submit" class="btn btnAgree btn-primary" data-bs-dismiss="modal">Agregar</button>
+        <button type="submit" class="btn btnDelete btn-secondary" data-bs-dismiss="modal">Borrar</button>  
+        <button type="submit" class="btn btnMod btn" data-bs-dismiss="modal">Modificar</button>   
+        <button type="submit" class="btn btnLogin btn-primary" data-bs-dismiss="modal">Guardar</button> 
+        <button type="submit" class="btn btnCancel btn-secondary" data-bs-dismiss="modal">Cancelar</button> 
+      </div>
+    </div>
   </div>
 </div>
 
 <!--Fin de página-->
 <div>
     <hr>
-    <p style="margin-left: 2%; margin-top: auto; font-size: 13px; font-style: italic;">Paula Micaela Schuppe | © Argentina Programa 2022-2023</p>
+    <p style="margin-left: 2%; margin-top: auto; font-size: 13px; font-style: italic; color: black;">Paula Micaela Schuppe | © Argentina Programa 2022-2023</p>
 </div> 
+</header>
 
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
