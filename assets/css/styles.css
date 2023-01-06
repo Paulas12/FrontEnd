@@ -1,13 +1,12 @@
 header{
     background-color: white;
+    overflow: hidden;
 }
 
 
 body{    
     background-color: rgb(42, 181, 181);
-    background-size:cover;
-    margin: 1rem;
-    margin-bottom: 0;
+    margin: 0.2cm;
 }
 
 
@@ -23,6 +22,11 @@ body{
 
 #login{
     margin-left: 2%;
+    margin-right: 1%;
+}
+
+#logout{
+    margin-left: 1%;
     margin-right: 2%;
 }
 

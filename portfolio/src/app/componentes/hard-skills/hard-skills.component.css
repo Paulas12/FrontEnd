@@ -1,0 +1,21 @@
+/*-----------Hard skills-------------*/
+#hard{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#html{
+    background-color: orangered ;
+}
+
+#css{
+    background-color: blueviolet;
+}
+
+#java{
+    background-color: green;
+}
+
+.progress:hover{
+    box-shadow: 0px 3px 8px 0.5px rgb(141, 140, 140);
+}

@@ -1,0 +1,36 @@
+/*-----------------Sobre mi-----------*/
+.imgPerfil{
+    width: 5cm;
+    height: 8cm;
+    margin-left: 2cm;
+}
+
+.nombre{
+    margin-right: 20%;
+    font-size: 40px;
+    font-style:italic ;
+}
+
+.puesto{
+    font-size: 18px;
+    margin-right: 25%;
+    font-style:italic;
+}
+
+h2{
+    color: darkcyan ; 
+    font-size: 50px ;
+    font-variant: small-caps;
+}
+
+#sobreMi{
+    border-radius: 35px 0px 35px 0px;
+    -moz-border-radius: 35px 0px 35px 0px;
+    -webkit-border-radius: 35px 0px 35px 0px;
+    border: 3px solid #5878ca;
+    margin-bottom: 3%;
+}
+
+.sobreMi{
+    color: black;
+}

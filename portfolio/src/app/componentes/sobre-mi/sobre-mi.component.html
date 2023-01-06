@@ -1,15 +1,16 @@
-
-    <section>
-        <div id="perfil">
+<section>
+    <div id="perfilInfo" class="seccion container-fluid rounded shadow-sm mb-5 bg-body-transparent p-0">
         <img src="assets/img/Foto portada.jpeg" alt="Foto-perfil" class="imgPerfil">
+<!-- Button trigger modal foto perfil--> 
+        <button type="button" id="btn" data-bs-toggle="modal" data-bs-target="#imgPerfilModal" class="btn btn-close-white"><i class="fa-solid fa-pencil"></i></button>
         <div class="container text-center">
             <div class="row">
                 <div class="col-6">
                     <h1 class="nombre">Paula Micaela Schuppe</h1>
                     <h1 class="puesto">Full Stack developer trainee</h1>
                 </div>
-                <div id="sobreMi" class="col-6">
-                    <h2 class="sobreMi">Sobre mi</h2>
+                <div id="sobreMi" class="col-6"><!--------- Button trigger modal ------------>  
+                    <h2 class="sobreMi">Sobre mi <button type="button" id="btn" data-bs-toggle="modal" data-bs-target="#sobreMiModal" class="btn btn-close-black"><i class="fa-solid fa-pencil"></i></button></h2>
                     <p>
                     Tengo 26 años, vivo en la ciudad de Posadas, provincia de Misiones, Argentina.  
                     Soy una persona curiosa y me gusta resolver problemas. Aprender hace parte de mi día a día y los desafíos me motivan a encontrar las mejores soluciones. 
@@ -17,5 +18,7 @@
                 </div>
             </div>
         </div>
-        </div>
-    </section>
+    </div>
+    <app-modal-perfil></app-modal-perfil>
+    <app-modal-sobre-mi></app-modal-sobre-mi>
+</section>

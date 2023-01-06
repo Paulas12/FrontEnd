@@ -1,0 +1,12 @@
+/*-----------Proyectos--------*/
+#card{
+    margin-top: 2%;
+}
+
+.descripcion{
+    font-size: 18px;
+}
+
+#img:hover{
+    box-shadow: 0px 3px 8px 0.5px rgb(141, 140, 140);
+}
