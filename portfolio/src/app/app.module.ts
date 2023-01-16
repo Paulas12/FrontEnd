@@ -1,8 +1,10 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+
 import { EducacionComponent } from './componentes/educacion/educacion.component';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
 import { BannerComponent } from './componentes/banner/banner.component';
@@ -13,8 +15,6 @@ import { SoftsSkillsComponent } from './componentes/softs-skills/softs-skills.co
 import { FinComponent } from './componentes/fin/fin.component';
 import { IndexComponent } from './componentes/index/index.component';
 import { ModalesComponent } from './componentes/modales/modales.component';
-import { BodyComponent } from './componentes/body/body.component';
-import { HeaderComponent } from './componentes/header/header.component';
 import { ModalLoginComponent } from './componentes/modales/modal-login/modal-login.component';
 import { ModalLogoutComponent } from './componentes/modales/modal-logout/modal-logout.component';
 import { ModalBannerComponent } from './componentes/modales/modal-banner/modal-banner.component';
@@ -27,6 +27,7 @@ import { Pagina404Component } from './componentes/pagina404/pagina404.component'
 import { LoginComponent } from './componentes/login/login.component';
 import { LogoutComponent } from './componentes/logout/logout.component';
 import { ModalSobreMiComponent } from './componentes/modales/modal-sobre-mi/modal-sobre-mi.component';
+import { HeaderComponent } from './componentes/header/header.component';
 
 
 
@@ -43,8 +44,6 @@ import { ModalSobreMiComponent } from './componentes/modales/modal-sobre-mi/moda
     FinComponent,
     IndexComponent,
     ModalesComponent,
-    BodyComponent,
-    HeaderComponent,
     ModalLoginComponent,
     ModalLogoutComponent,
     ModalBannerComponent,
@@ -57,10 +56,13 @@ import { ModalSobreMiComponent } from './componentes/modales/modal-sobre-mi/moda
     LoginComponent,
     LogoutComponent,
     ModalSobreMiComponent,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

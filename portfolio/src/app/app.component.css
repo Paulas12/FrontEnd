@@ -1,1 +1,6 @@
 /*Estilos propios de cada componente*/
+
+header{
+    background-color: white;
+    overflow: hidden;
+}

@@ -3,12 +3,16 @@ header{
     overflow: hidden;
 }
 
-
 body{    
     background-color: rgb(42, 181, 181);
     margin: 0.2cm;
 }
 
+h2{
+    color: darkcyan ; 
+    font-size: 50px ;
+    font-variant: small-caps;
+}
 
 /*----Barra de navegacion----*/
 #yoProgramo{
@@ -21,13 +25,13 @@ body{
 }
 
 #login{
-    margin-left: 2%;
-    margin-right: 1%;
+    margin-left: 0.1cm;
+    margin-right: 0.1cm;
 }
 
 #logout{
-    margin-left: 1%;
-    margin-right: 2%;
+    margin-left: 0.1cm;
+    margin-right: 1cm;
 }
 
 /*------------------Banner------------------*/
@@ -60,11 +64,7 @@ body{
     font-style:italic;
 }
 
-h2{
-    color: darkcyan ; 
-    font-size: 50px ;
-    font-variant: small-caps;
-}
+
 
 #sobreMi{
     border-radius: 35px 0px 35px 0px;

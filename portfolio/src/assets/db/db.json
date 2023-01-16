@@ -1,0 +1,178 @@
+{
+    "personales": [
+    {
+        "id": 1,
+        "banner": "../assets/img/Banner.jpg",
+        "profileImage": "../assets/Foto portada.jpeg",
+        "nombrePerfil": "Paula Micaela Schuppe",
+        "email": "paushuppe@gmail.com",
+        "tituloPerfil": "Desarrollador Web FullStack Trainee",
+        "sobreMiPerfil": "Tengo 26 años, vivo en la ciudad de Posadas, provincia de Misiones, Argentina. Soy una persona curiosa y me gusta resolver problemas. Aprender hace parte de mi día a día y los desafíos me motivan a encontrar las mejores soluciones."
+    }
+    ],
+
+    "estudios": [
+        {
+            "id": 1,
+            "logoEstudio": "../assets/img/ISBM.png",
+            "estudio": "Bachiller en humanidades y ciencias sociales",
+            "inicio": "2009",
+            "fin": "2014"
+    },
+
+        {
+        "id": 2,
+        "logoEstudio": "../assets/img/fceqyn.jpg",
+        "estudio": "Analista en sistemas de computación",
+        "inicio": "2019",
+        "fin": "Actualidad"
+    },
+
+        {
+        "id": 3,
+        "logoEstudio": "../assets/img/google.png",
+        "estudio": "Desarrollo de apps moviles",
+        "inicio": "Abril 2022",
+        "fin": "Abril 2022"
+    },
+
+        {
+        "id": 4,
+        "logoEstudio": "../assets/img/seprogramar.png",
+        "estudio": "Desarrollador Web FullStack",
+        "inicio": "2022",
+        "fin": "2023"
+    },
+        
+        {
+        "id": 5,
+        "logoEstudio": "../assets/img/openBootcamp.png",
+        "estudio": "Introduccion a la programacion",
+        "inicio": "Agosto 2022",
+        "fin": "Agosto 2022"
+    },
+
+        {
+        "id": 6,
+        "logoEstudio": "../assets/img/educacion it.jpg",
+        "estudio": "Bootcamp java developer",
+        "inicio": "Mayo 2022",
+        "fin": "Noviembre 2022"
+    },
+
+    {
+        "id": 7,
+        "logoEstudio": "../assets/img/facilito.png",
+        "estudio": "Introduccion al desarrollo de apps con swift-ios",
+        "inicio": "Noviembre 2022",
+        "fin": "Noviembre 2022"
+    },
+
+        {
+        "id": 8,
+        "logoEstudio": "../assets/img/alura.png",
+        "estudio": "Programa oracle next education",
+        "inicio": "Diciembre 2022",
+        "fin": "Actualidad"
+    }
+    ],
+
+
+        "hard skills":[
+        {
+        "id": 1,
+        "habilidad": "HTML"
+    },
+        
+        {
+        "id": 2,
+        "habilidad": "50"
+    },
+
+        {
+        "id": 3,
+        "habilidad": "JAVA"
+    }
+    ],
+    
+
+    "soft skills":[
+        {
+        "id": 1,
+        "habilidad": "Capacidad para trabajar en equipo"
+    },
+        
+        {
+        "id": 2,
+        "habilidad": "Capacidad para integración y comunicación"
+    },
+
+        {
+        "id": 3,
+        "habilidad": "Resolución de problemas"
+    },
+
+        {
+        "id": 4,
+        "habilidad": "Aprendizaje constante"
+    },
+
+        {
+        "id": 5,
+        "habilidad": "Autodisciplina"
+    },
+
+        {
+        "id": 6,
+        "habilidad": "Compromiso"
+    },
+
+        {
+        "id": 7,
+        "habilidad": "Responsabilidad"
+    },
+
+        {
+        "id": 8,
+        "habilidad": "Inglés: Intermedio"
+    }
+    ],
+
+    "proyectos": [
+        {
+            "id": 1,
+            "logoProyecto": "urlAPLogo",
+            "urlProyecto": "urlAPLogo",
+            "tituloProyecto": "Barbería Alura",
+            "inicio": "2022",
+            "fin": "2022",
+            "descripcion": "Tienda desarrollada en HTML y CSS"
+    },
+
+        {
+        "id": 2,
+        "logoProyecto": "urlAPLogo",
+        "urlProyecto": "urlAPLogo",
+        "tituloProyecto": "Portfolio web front-end",
+        "inicio": "2022",
+        "fin": "2023",
+        "descripcion": "Frontend realizado con Angular como proyecto final de Argentina Programa - #YoProgramo"
+    },
+
+        {
+        "id": 3,
+        "logoProyecto": "urlAPLogo",
+        "urlProyecto": "urlAPLogo",
+        "tituloProyecto": "Portfolio web back-end",
+        "inicio": "2022",
+        "fin": "2023",
+        "descripcion": "Backend realizado con Java como proyecto final de Argentina Programa - #YoProgramo."
+    }
+    ]
+}
+
+
+
+
+
+

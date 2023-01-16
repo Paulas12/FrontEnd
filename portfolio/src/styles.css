@@ -1,3 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
 /*estilos globales*/
 
+header{
+    background-color: white;
+    overflow: hidden;
+}
+
+body{    
+    background-color: rgb(42, 181, 181);
+    margin: 0.2cm;
+}
+
+h2{
+    color: darkcyan ; 
+    font-size: 50px;
+    font-variant: small-caps;
+}
