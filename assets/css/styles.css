@@ -65,7 +65,6 @@ h2{
 }
 
 
-
 #sobreMi{
     border-radius: 35px 0px 35px 0px;
     -moz-border-radius: 35px 0px 35px 0px;
@@ -129,14 +128,10 @@ h2{
 }
 
 .blandas{
-    margin-bottom: 3%;
     font-size: 18px;
 }
 
 /*-----------Proyectos--------*/
-#card{
-    margin-top: 2%;
-}
 
 .descripcion{
     font-size: 18px;

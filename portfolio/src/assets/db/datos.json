@@ -1,0 +1,30 @@
+{
+    "nombre": "Paula Micaela",
+    "apellido":  "Schuppe",
+    "edad": 26,
+
+    "estudios":[
+        {
+            "id": 1,
+            "titulo": "Bachiller en Humanidades y Ciencias Sociales",
+            "institución": "Instituto San Basilio Magno",
+            "inicio": "2010",
+            "fin": "2014" 
+        },
+
+        {
+            "id": 2,
+            "titulo": "Analista en Sistemas de Computación",
+            "institucion": "Facultad de Ciencias Exactas, Químicas y Naturales - UNaM",
+            "imagen": "../assets/img/fceqyn.jpg",
+            "inicio": "2019",
+            "fin": "en curso" 
+        }
+    ],
+
+    "habilidades":[
+        {
+
+        }
+    ]
+}

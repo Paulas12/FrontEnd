@@ -17,7 +17,7 @@ export class DatosService {
   getDatos():Observable<any>{
     //retorno de datos utilizando el metodo get ef HttpClient que llama a la base de datos JSON o a una URL
 
-    return this.http.get('./asset/db/datos.json');
+    return this.http.get('./asset/db/datos .json');
     //acá podria poner un callback para ver la opción de problema de conexión del servidor
   }
 }
