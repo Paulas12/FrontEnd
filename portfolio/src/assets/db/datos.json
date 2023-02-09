@@ -149,7 +149,8 @@
 
     {
         "id": 2,
-        "logo": "FrontEnd proyectito2",
+        "logo": "./img/FrontEnd.jpeg",
+        "url": "https://github.com/Paulas12/Barberia-Alura-",
         "titulo": "Portfolio web front-end",
         "descripcion": "Frontend realizado con Angular como proyecto final de Argentina Programa - #YoProgramo"
     },
@@ -157,6 +158,8 @@
     {
         "id": 3,
         "logo": "back proyectito3",
+        "logo": "./img/back.png",
+        "url": "https://github.com/Paulas12/Barberia-Alura-",
         "titulo": "Portfolio web back-end",
         "descripcion": "Backend realizado con Java como proyecto final de Argentina Programa - #YoProgramo."
     }
