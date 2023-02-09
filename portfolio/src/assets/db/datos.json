@@ -12,15 +12,15 @@
     ],
 
     "estudios": [
-        {
-            "id": 1,
-            "logoEstudio": "../assets/img/ISBM.png",
-            "estudio": "Bachiller en humanidades y ciencias sociales",
-            "inicio": "2009",
-            "fin": "2014"
+    {
+        "id": 1,
+        "logoEstudio": "../assets/img/ISBM.png",
+        "estudio": "Bachiller en humanidades y ciencias sociales",
+        "inicio": "2009",
+        "fin": "2014"
     },
 
-        {
+    {
         "id": 2,
         "logoEstudio": "../assets/img/fceqyn.jpg",
         "estudio": "Analista en sistemas de computación",
@@ -28,7 +28,7 @@
         "fin": "Actualidad"
     },
 
-        {
+    {
         "id": 3,
         "logoEstudio": "../assets/img/google.png",
         "estudio": "Desarrollo de apps moviles",
@@ -36,7 +36,7 @@
         "fin": "Abril 2022"
     },
 
-        {
+    {
         "id": 4,
         "logoEstudio": "../assets/img/seprogramar.png",
         "estudio": "Desarrollador Web FullStack",
@@ -44,7 +44,7 @@
         "fin": "2023"
     },
         
-        {
+    {
         "id": 5,
         "logoEstudio": "../assets/img/openBootcamp.png",
         "estudio": "Introduccion a la programacion",
@@ -52,7 +52,7 @@
         "fin": "Agosto 2022"
     },
 
-        {
+    {
         "id": 6,
         "logoEstudio": "../assets/img/educacion it.jpg",
         "estudio": "Bootcamp java developer",
@@ -68,7 +68,7 @@
         "fin": "Noviembre 2022"
     },
 
-        {
+    {
         "id": 8,
         "logoEstudio": "../assets/img/alura.png",
         "estudio": "Programa oracle next education",
@@ -78,18 +78,18 @@
     ],
 
 
-        "hard skills":[
-        {
+    "hard skills":[
+    {
         "id": 1,
         "habilidad": "HTML"
     },
         
-        {
+    {
         "id": 2,
         "habilidad": "50"
     },
 
-        {
+    {
         "id": 3,
         "habilidad": "JAVA"
     }
@@ -97,75 +97,67 @@
     
 
     "soft skills":[
-        {
+    {
         "id": 1,
         "habilidad": "Capacidad para trabajar en equipo"
     },
         
-        {
+    {
         "id": 2,
         "habilidad": "Capacidad para integración y comunicación"
     },
 
-        {
+    {
         "id": 3,
         "habilidad": "Resolución de problemas"
     },
 
-        {
+    {
         "id": 4,
         "habilidad": "Aprendizaje constante"
     },
 
-        {
+    {
         "id": 5,
         "habilidad": "Autodisciplina"
     },
 
-        {
+    {
         "id": 6,
         "habilidad": "Compromiso"
     },
 
-        {
+    {
         "id": 7,
         "habilidad": "Responsabilidad"
     },
 
-        {
+    {
         "id": 8,
         "habilidad": "Inglés: Intermedio"
     }
     ],
 
     "proyectos": [
-        {
-            "id": 1,
-            "logoProyecto": "urlAPLogo",
-            "urlProyecto": "urlAPLogo",
-            "tituloProyecto": "Barbería Alura",
-            "inicio": "2022",
-            "fin": "2022",
-            "descripcion": "Tienda desarrollada en HTML y CSS"
+    {
+        "id": 1,
+        "logo": "./img/alura.png",
+        "url": "https://github.com/Paulas12/Barberia-Alura-",
+        "titulo": "Barbería Alura",
+        "descripcion": "Tienda desarrollada en HTML y CSS"
     },
 
-        {
+    {
         "id": 2,
-        "logoProyecto": "urlAPLogo",
-        "urlProyecto": "urlAPLogo",
-        "tituloProyecto": "Portfolio web front-end",
-        "inicio": "2022",
-        "fin": "2023",
+        "logo": "FrontEnd proyectito2",
+        "titulo": "Portfolio web front-end",
         "descripcion": "Frontend realizado con Angular como proyecto final de Argentina Programa - #YoProgramo"
     },
 
-        {
+    {
         "id": 3,
-        "logoProyecto": "urlAPLogo",
-        "urlProyecto": "urlAPLogo",
-        "tituloProyecto": "Portfolio web back-end",
-        "inicio": "2022",
-        "fin": "2023",
+        "logo": "back proyectito3",
+        "titulo": "Portfolio web back-end",
         "descripcion": "Backend realizado con Java como proyecto final de Argentina Programa - #YoProgramo."
     }
     ]
