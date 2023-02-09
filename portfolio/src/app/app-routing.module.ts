@@ -5,6 +5,7 @@ import { Pagina404Component } from './componentes/pagina404/pagina404.component'
 
 
 
+
 const routes: Routes = [
   {path: '', component: IndexComponent },
   {path: '**', component: Pagina404Component}
