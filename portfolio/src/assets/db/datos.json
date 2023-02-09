@@ -141,7 +141,7 @@
     "proyectos": [
     {
         "id": 1,
-        "logo": "./img/alura.png",
+        "logo": "../asset/img/logo.png",
         "url": "https://github.com/Paulas12/Barberia-Alura-",
         "titulo": "Barbería Alura",
         "descripcion": "Tienda desarrollada en HTML y CSS"
@@ -149,7 +149,7 @@
 
     {
         "id": 2,
-        "logo": "./img/FrontEnd.jpeg",
+        "logo": "../asset/img/FrontEnd.png",
         "url": "https://github.com/Paulas12/Barberia-Alura-",
         "titulo": "Portfolio web front-end",
         "descripcion": "Frontend realizado con Angular como proyecto final de Argentina Programa - #YoProgramo"
@@ -157,8 +157,7 @@
 
     {
         "id": 3,
-        "logo": "back proyectito3",
-        "logo": "./img/back.png",
+        "logo": "../asset/img/back.png",
         "url": "https://github.com/Paulas12/Barberia-Alura-",
         "titulo": "Portfolio web back-end",
         "descripcion": "Backend realizado con Java como proyecto final de Argentina Programa - #YoProgramo."
