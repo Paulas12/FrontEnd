@@ -15,31 +15,31 @@ export class LoginComponent implements OnInit {
   constructor(private formBuilder: FormBuilder){
     //Creamos el grupo de controles para la formulacion de login 
     this.form= this.formBuilder.group({
-      password:['', [Validators.required, Validators.minLength(8)]],
+      password:['', [Validators.required, Validators.minLength(8)]],//tambien se puede usar maxLength para la longitud maxima del password
       email:['', [Validators.required, Validators.email]],
     })
   }
 
   ngOnInit() {}
-
+//Metodos para el formulario: toma el dato del password 
   get Password(){
     return this.form.get("password");
   }
-
+//toma datos del mail
   get Mail(){
     return this.form.get("email");
   }
-
+//metodo de validacion del password 
   get PasswordValid(){
     return this.Password?.touched && !this.Password?.valid;
   }
-
+//metodo de validacion de mail 
   get MailValid(){
-    return false
+    return this.Mail?.touched && !this.Mail?.valid; 
   }
 
   onEnviar(event: Event){
-    //obtenemos la propagacion o ejecucion del componente submit de un form
+    //detenemos la propagacion o ejecucion del componente submit de un form
     event.preventDefault;
 
     if (this.form.valid) {
@@ -49,6 +49,7 @@ export class LoginComponent implements OnInit {
     } else {
       //Corremos todas las validaciones para que se ejecuten los mensajes de error en el template
       this.form.markAllAsTouched();
+      alert("Contraseña o correo incorrectos")
     }
   }
 }
