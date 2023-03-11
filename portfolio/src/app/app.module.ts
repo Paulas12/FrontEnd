@@ -28,7 +28,7 @@ import { LoginComponent } from './componentes/login/login.component';
 import { LogoutComponent } from './componentes/logout/logout.component';
 import { ModalSobreMiComponent } from './componentes/modales/modal-sobre-mi/modal-sobre-mi.component';
 import { HeaderComponent } from './componentes/header/header.component';
-
+import { HttpClient } from '@angular/common/http';
 
 
 @NgModule({
@@ -63,7 +63,8 @@ import { HeaderComponent } from './componentes/header/header.component';
     AppRoutingModule,
     HttpClientModule,
     FormsModule, 
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClient
   ],
   providers: [],
   bootstrap: [AppComponent]
