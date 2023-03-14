@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { IndexComponent } from './componentes/index/index.component';
+import { HomeComponent } from './componentes/home/home.component';
+import { LoginComponent } from './componentes/login/login.component';
 import { Pagina404Component } from './componentes/pagina404/pagina404.component';
 
 
-
-
 const routes: Routes = [
-  {path: '', component: IndexComponent },
+  {path: '', component: HomeComponent },
+  {path: 'login', component: LoginComponent},
   {path: '**', component: Pagina404Component}
 ];
 

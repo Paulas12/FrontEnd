@@ -13,7 +13,6 @@ import { SobreMiComponent } from './componentes/sobre-mi/sobre-mi.component';
 import { HardSkillsComponent } from './componentes/hard-skills/hard-skills.component';
 import { SoftsSkillsComponent } from './componentes/softs-skills/softs-skills.component';
 import { FinComponent } from './componentes/fin/fin.component';
-import { IndexComponent } from './componentes/index/index.component';
 import { ModalesComponent } from './componentes/modales/modales.component';
 import { ModalLoginComponent } from './componentes/modales/modal-login/modal-login.component';
 import { ModalLogoutComponent } from './componentes/modales/modal-logout/modal-logout.component';
@@ -24,11 +23,10 @@ import { ModalSoftSkillsComponent } from './componentes/modales/modal-soft-skill
 import { ModalHardSkillsComponent } from './componentes/modales/modal-hard-skills/modal-hard-skills.component';
 import { ModalProyectosComponent } from './componentes/modales/modal-proyectos/modal-proyectos.component';
 import { Pagina404Component } from './componentes/pagina404/pagina404.component';
-import { LoginComponent } from './componentes/login/login.component';
 import { LogoutComponent } from './componentes/logout/logout.component';
 import { ModalSobreMiComponent } from './componentes/modales/modal-sobre-mi/modal-sobre-mi.component';
 import { HeaderComponent } from './componentes/header/header.component';
-import { HttpClient } from '@angular/common/http';
+
 
 
 @NgModule({
@@ -42,7 +40,6 @@ import { HttpClient } from '@angular/common/http';
     HardSkillsComponent,
     SoftsSkillsComponent,
     FinComponent,
-    IndexComponent,
     ModalesComponent,
     ModalLoginComponent,
     ModalLogoutComponent,
@@ -53,7 +50,6 @@ import { HttpClient } from '@angular/common/http';
     ModalHardSkillsComponent,
     ModalProyectosComponent,
     Pagina404Component,
-    LoginComponent,
     LogoutComponent,
     ModalSobreMiComponent,
     HeaderComponent,
@@ -64,7 +60,7 @@ import { HttpClient } from '@angular/common/http';
     HttpClientModule,
     FormsModule, 
     ReactiveFormsModule,
-    HttpClient
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
