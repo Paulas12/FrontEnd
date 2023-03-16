@@ -1,8 +1,8 @@
-/*-----------------Sobre mi-----------*/
 .imgPerfil{
-    width: 5cm;
-    height: 8cm;
-    margin-left: 2cm;
+    position:relative;
+    width: 7cm;
+    height: 11cm;
+    margin-left: 4cm;
 }
 
 .nombre{

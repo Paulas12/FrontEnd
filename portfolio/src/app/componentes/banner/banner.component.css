@@ -1,11 +1,9 @@
-
-/*------------------Banner------------------*/
-.banner{            /*se edita la distancia de foto de perfil sobre el banner*/
+.banner{            
     width: 100%;
     height: 3cm;
 }
 
-.img-fluid{         /* se edita el banner*/
+.img-fluid{         
     width: 100%;
     height: 10cm;
 }
