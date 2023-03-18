@@ -1,20 +1,21 @@
 #educacion{
     width: 90%;
     margin: auto;
-    margin-bottom: 5%;
 }
 
-.cole:hover {
-    /*filter: grayscale(80%); escala de grises*/
-    filter: opacity(.5);    /*transparencia*/
+.card:hover {
+    filter: opacity(.5); 
 }
 
-.cole{
+.card{
+    width: 90%;
+    margin: auto;
+    align-items: center;
     text-align: center;
     font-size: 18px;
 }
 
-.card-img-top{
-    width: 90%;
-    margin: auto;
+#tamaño{
+    height: 180px;
+    width: 180px;
 }

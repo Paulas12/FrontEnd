@@ -1,10 +1,18 @@
-/*----Barra de navegacion----*/
+
 #yoProgramo{
     color: darkcyan;
     font-size: 16px; 
+    margin-left: 10px;
+    font-weight: bold;
 }
 
+#logAp{
+    height: 50px;
+    width: 150px;
+}
+
+
 #redes{
-    background-color: darkcyan;
+    background-color: black;
 }
 

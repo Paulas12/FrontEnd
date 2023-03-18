@@ -1,8 +1,12 @@
-/*------Soft skills----------------*/
+#soft{
+    margin: 76px;
+}
+
+
 #fondo:hover{
     filter: opacity(.5);
 }
 
-.blandas{
+#blandas{
     font-size: 18px;
 }

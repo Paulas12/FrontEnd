@@ -1,5 +1,5 @@
-.imgPerfil{
-    position:relative;
+#imgPerfil{
+    position: static;
     width: 7cm;
     height: 11cm;
     margin-left: 4cm;
@@ -18,7 +18,6 @@
 }
 
 
-
 #sobreMi{
     border-radius: 35px 0px 35px 0px;
     -moz-border-radius: 35px 0px 35px 0px;
@@ -30,3 +29,11 @@
 .sobreMi{
     color: black;
 }
+
+@media (max-width: 576px) {
+    #imgPerfil {
+        position: static;
+        width: 50%;
+    }
+}
+

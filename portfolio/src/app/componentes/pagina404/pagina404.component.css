@@ -124,3 +124,8 @@ html {
     4.3% {opacity: 1; transform: scaleY(4);}
     43% {opacity: 1; transform: scaleX(10) rotate(60deg);}
 }
+
+#botonInic{
+    margin-left: 48%;
+    margin-top: 35%;
+}

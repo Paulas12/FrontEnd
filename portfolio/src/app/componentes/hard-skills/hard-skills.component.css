@@ -1,19 +1,23 @@
-/*-----------Hard skills-------------*/
+
 #hard{
     margin-left: 5%;
     margin-right: 5%;
+    text-align: center;
 }
 
 #html{
     background-color: orangered ;
+    width: 30%;
 }
 
 #css{
     background-color: blueviolet;
+    width: 20%;
 }
 
 #java{
     background-color: green;
+    width: 50%;
 }
 
 .progress:hover{

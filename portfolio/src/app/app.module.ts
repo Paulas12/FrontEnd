@@ -8,7 +8,6 @@ import { AppComponent } from './app.component';
 import { EducacionComponent } from './componentes/educacion/educacion.component';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
 import { BannerComponent } from './componentes/banner/banner.component';
-import { NavBarComponent } from './componentes/nav-bar/nav-bar.component';
 import { SobreMiComponent } from './componentes/sobre-mi/sobre-mi.component';
 import { HardSkillsComponent } from './componentes/hard-skills/hard-skills.component';
 import { SoftsSkillsComponent } from './componentes/softs-skills/softs-skills.component';
@@ -26,6 +25,10 @@ import { Pagina404Component } from './componentes/pagina404/pagina404.component'
 import { LogoutComponent } from './componentes/logout/logout.component';
 import { ModalSobreMiComponent } from './componentes/modales/modal-sobre-mi/modal-sobre-mi.component';
 import { HeaderComponent } from './componentes/header/header.component';
+import { NavBarComponent } from './componentes/nav-bar/nav-bar.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
+import { HysComponent } from './componentes/hys/hys.component';
+
 
 
 
@@ -35,7 +38,6 @@ import { HeaderComponent } from './componentes/header/header.component';
     EducacionComponent,
     ProyectosComponent,
     BannerComponent,
-    NavBarComponent,
     SobreMiComponent,
     HardSkillsComponent,
     SoftsSkillsComponent,
@@ -53,13 +55,16 @@ import { HeaderComponent } from './componentes/header/header.component';
     LogoutComponent,
     ModalSobreMiComponent,
     HeaderComponent,
+    NavBarComponent,
+    HysComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     FormsModule, 
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgCircleProgressModule.forRoot({})
   ],
   providers: [],
   bootstrap: [AppComponent]
