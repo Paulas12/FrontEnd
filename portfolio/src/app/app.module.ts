@@ -27,9 +27,7 @@ import { ModalSobreMiComponent } from './componentes/modales/modal-sobre-mi/moda
 import { HeaderComponent } from './componentes/header/header.component';
 import { NavBarComponent } from './componentes/nav-bar/nav-bar.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
-import { HysComponent } from './componentes/hys/hys.component';
-
-
+import { Skills2Component } from './componentes/skills2/skills2.component';
 
 
 @NgModule({
@@ -56,7 +54,7 @@ import { HysComponent } from './componentes/hys/hys.component';
     ModalSobreMiComponent,
     HeaderComponent,
     NavBarComponent,
-    HysComponent
+    Skills2Component,
   ],
   imports: [
     BrowserModule,
