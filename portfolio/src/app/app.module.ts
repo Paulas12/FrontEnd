@@ -11,7 +11,6 @@ import { BannerComponent } from './componentes/banner/banner.component';
 import { SobreMiComponent } from './componentes/sobre-mi/sobre-mi.component';
 import { HardSkillsComponent } from './componentes/hard-skills/hard-skills.component';
 import { SoftsSkillsComponent } from './componentes/softs-skills/softs-skills.component';
-import { FinComponent } from './componentes/fin/fin.component';
 import { ModalesComponent } from './componentes/modales/modales.component';
 import { ModalLoginComponent } from './componentes/modales/modal-login/modal-login.component';
 import { ModalLogoutComponent } from './componentes/modales/modal-logout/modal-logout.component';
@@ -28,6 +27,7 @@ import { HeaderComponent } from './componentes/header/header.component';
 import { NavBarComponent } from './componentes/nav-bar/nav-bar.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { Skills2Component } from './componentes/skills2/skills2.component';
+import { FooterComponent } from './componentes/footer/footer.component';
 
 
 @NgModule({
@@ -39,7 +39,6 @@ import { Skills2Component } from './componentes/skills2/skills2.component';
     SobreMiComponent,
     HardSkillsComponent,
     SoftsSkillsComponent,
-    FinComponent,
     ModalesComponent,
     ModalLoginComponent,
     ModalLogoutComponent,
@@ -55,6 +54,7 @@ import { Skills2Component } from './componentes/skills2/skills2.component';
     HeaderComponent,
     NavBarComponent,
     Skills2Component,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
