@@ -15,52 +15,20 @@
     background-color: black;
 }
 
-
 /*--- Para la vista de celular ---*/
-@media (max-width: 575px){
-    .container{
-        flex-direction: column;
-    }
-
-    .redes{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    #redes{
-        margin-bottom: 0.2em;
-    }
-}
-/*
-.container-fluid{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.redes{
-    margin-right: 0.5em;
-}
-#logoAP{
-    width: 150px;
-}
-img{
-    width: 50px;
-}
-.btn{
-    border-width: medium;
-}
-
-/*--- Para la vista de celular ---
 @media (max-width: 575px){
     .container-fluid{
         flex-direction: column;
     }
+
     .redes{
         display: flex;
-        flex-direction: column;
         align-items: center;
+        flex-direction: column;
+        
+        margin-left: 0.2em;
     }
     #redes{
-        margin: 0.2em;
+        margin-bottom: 0;
     }
-}*/
+}
