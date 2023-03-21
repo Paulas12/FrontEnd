@@ -1,39 +1,57 @@
+.row{
+    padding: 60px;
+}
+
 #imgPerfil{
-    position: static;
     width: 7cm;
     height: 11cm;
-    margin-left: 4cm;
+    margin-left: 2cm;
 }
 
 .nombre{
-    margin-right: 20%;
     font-size: 40px;
     font-style:italic ;
 }
 
 .puesto{
     font-size: 18px;
-    margin-right: 25%;
     font-style:italic;
 }
 
+#datos{
+    font-weight: bold;
+    margin-left: 50px;
+}
 
 #sobreMi{
     border-radius: 35px 0px 35px 0px;
     -moz-border-radius: 35px 0px 35px 0px;
     -webkit-border-radius: 35px 0px 35px 0px;
     border: 3px solid #5878ca;
-    margin-bottom: 3%;
+    padding: 15px;
+    font-size: 20px;
 }
 
 .sobreMi{
     color: black;
 }
 
-@media (max-width: 576px) {
+
+@media only screen and (max-width: 576px) {
     #imgPerfil {
         position: static;
-        width: 50%;
+        padding: 3px;
+        margin: 0 auto;
+        width: 250px;
+        object-fit: cover;
+        margin-top: -150px;
+    }
+
+    #datos{
+        position:static;
+        margin-top:70px;
+        margin-left:25px;
+        text-align: left;
     }
 }
 
