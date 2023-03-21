@@ -2,6 +2,11 @@
     padding: 76px;
 }
 
+.text-center:hover{
+    filter: opacity(.5);
+    
+}
+
 h2{
     margin-bottom: 50px;
 }
