@@ -29,6 +29,8 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
 import { Skills2Component } from './componentes/skills2/skills2.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { HomeComponent } from './componentes/home/home.component';
+import { NuevoUsuarioComponent } from './model/nuevo-usuario/nuevo-usuario.component';
+import { LoginUsuarioComponent } from './model/login-usuario/login-usuario.component';
 
 
 @NgModule({
@@ -57,6 +59,8 @@ import { HomeComponent } from './componentes/home/home.component';
     Skills2Component,
     FooterComponent,
     HomeComponent,
+    NuevoUsuarioComponent,
+    LoginUsuarioComponent,
   ],
   imports: [
     BrowserModule,
