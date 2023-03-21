@@ -28,6 +28,7 @@ import { NavBarComponent } from './componentes/nav-bar/nav-bar.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { Skills2Component } from './componentes/skills2/skills2.component';
 import { FooterComponent } from './componentes/footer/footer.component';
+import { HomeComponent } from './componentes/home/home.component';
 
 
 @NgModule({
@@ -55,6 +56,7 @@ import { FooterComponent } from './componentes/footer/footer.component';
     NavBarComponent,
     Skills2Component,
     FooterComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
