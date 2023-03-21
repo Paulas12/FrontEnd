@@ -1,5 +1,11 @@
 #proyectos{
     margin-bottom: 200px;
+    
+}
+
+.row{
+    margin-left: 70px;
+    margin-right: 50px;
 }
 
 .descripcion{
@@ -36,6 +42,6 @@
         align-items: center;
     }
     .col{
-        margin-bottom: 5em;
+        margin-bottom: 7em;
     }
 }
