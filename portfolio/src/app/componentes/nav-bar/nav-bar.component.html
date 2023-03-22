@@ -14,8 +14,8 @@
                     
                 <li class="list-group-item" alt="logo-instagram" id="redes"><a href="https://www.instagram.com/paula_schuppe/?hl=es-la" target="_blank"><i class="fa-brands fa-instagram btn btn-outline-light"></i></a></li>
 
-                <button type="button" class="btn btn-outline-light" (click)="login()">INGRESO</button>
-                <app-logout></app-logout>
+                <button type="button" class="btn btn-outline-light" (click)="login()" *ngIf="!isLogged">INGRESO</button>
+                <button type="button" class="btn btn-outline-light" (click)="onLogOut" *ngIf="isLogged">CERRAR SESION</button>
             </ul>
         </div>
     </nav>

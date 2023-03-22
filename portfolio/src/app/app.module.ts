@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -21,7 +21,6 @@ import { ModalSoftSkillsComponent } from './componentes/modales/modal-soft-skill
 import { ModalHardSkillsComponent } from './componentes/modales/modal-hard-skills/modal-hard-skills.component';
 import { ModalProyectosComponent } from './componentes/modales/modal-proyectos/modal-proyectos.component';
 import { Pagina404Component } from './componentes/pagina404/pagina404.component';
-import { LogoutComponent } from './componentes/logout/logout.component';
 import { ModalSobreMiComponent } from './componentes/modales/modal-sobre-mi/modal-sobre-mi.component';
 import { HeaderComponent } from './componentes/header/header.component';
 import { NavBarComponent } from './componentes/nav-bar/nav-bar.component';
@@ -29,8 +28,6 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
 import { Skills2Component } from './componentes/skills2/skills2.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { HomeComponent } from './componentes/home/home.component';
-import { NuevoUsuarioComponent } from './model/nuevo-usuario/nuevo-usuario.component';
-import { LoginUsuarioComponent } from './model/login-usuario/login-usuario.component';
 
 
 @NgModule({
@@ -52,22 +49,18 @@ import { LoginUsuarioComponent } from './model/login-usuario/login-usuario.compo
     ModalHardSkillsComponent,
     ModalProyectosComponent,
     Pagina404Component,
-    LogoutComponent,
     ModalSobreMiComponent,
     HeaderComponent,
     NavBarComponent,
     Skills2Component,
     FooterComponent,
     HomeComponent,
-    NuevoUsuarioComponent,
-    LoginUsuarioComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     FormsModule, 
-    ReactiveFormsModule,
     NgCircleProgressModule.forRoot({})
   ],
   providers: [],
