@@ -60,7 +60,7 @@ import { HomeComponent } from './componentes/home/home.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule, 
+    FormsModule,
     NgCircleProgressModule.forRoot({})
   ],
   providers: [],
