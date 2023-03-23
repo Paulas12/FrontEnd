@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
@@ -9,8 +8,6 @@ import { EducacionComponent } from './componentes/educacion/educacion.component'
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
 import { BannerComponent } from './componentes/banner/banner.component';
 import { SobreMiComponent } from './componentes/sobre-mi/sobre-mi.component';
-import { HardSkillsComponent } from './componentes/hard-skills/hard-skills.component';
-import { SoftsSkillsComponent } from './componentes/softs-skills/softs-skills.component';
 import { ModalesComponent } from './componentes/modales/modales.component';
 import { ModalLoginComponent } from './componentes/modales/modal-login/modal-login.component';
 import { ModalLogoutComponent } from './componentes/modales/modal-logout/modal-logout.component';
@@ -24,11 +21,14 @@ import { Pagina404Component } from './componentes/pagina404/pagina404.component'
 import { ModalSobreMiComponent } from './componentes/modales/modal-sobre-mi/modal-sobre-mi.component';
 import { HeaderComponent } from './componentes/header/header.component';
 import { NavBarComponent } from './componentes/nav-bar/nav-bar.component';
-import { NgCircleProgressModule } from 'ng-circle-progress';
 import { Skills2Component } from './componentes/skills2/skills2.component';
 import { FooterComponent } from './componentes/footer/footer.component';
-import { HomeComponent } from './componentes/home/home.component';
 
+import { NgCircleProgressModule } from 'ng-circle-progress';
+
+import { HttpClientModule } from '@angular/common/http';
+import { HomeComponent } from './componentes/home/home.component';
+import { LoginComponent } from './componentes/login/login.component';
 
 @NgModule({
   declarations: [
@@ -37,8 +37,6 @@ import { HomeComponent } from './componentes/home/home.component';
     ProyectosComponent,
     BannerComponent,
     SobreMiComponent,
-    HardSkillsComponent,
-    SoftsSkillsComponent,
     ModalesComponent,
     ModalLoginComponent,
     ModalLogoutComponent,
@@ -55,6 +53,7 @@ import { HomeComponent } from './componentes/home/home.component';
     Skills2Component,
     FooterComponent,
     HomeComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
