@@ -1,21 +1,9 @@
-#educacion{
-    width: 90%;
-    margin: auto;
+.row{
+    padding: 20px;
 }
-
-.card:hover {
-    filter: opacity(.5); 
+div{
+    background: #a1b5cb;
 }
-
-.card{
-    width: 90%;
-    margin: auto;
-    align-items: center;
-    text-align: center;
-    font-size: 18px;
-}
-
-#tamaño{
-    height: 180px;
-    width: 180px;
+h1, h3{
+    display: inline;
 }
