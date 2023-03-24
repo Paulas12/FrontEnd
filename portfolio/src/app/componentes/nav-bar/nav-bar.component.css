@@ -15,6 +15,10 @@
     background-color: black;
 }
 
+.ingreso{
+    margin-right: 1cm;
+}
+
 
 /*--- Para la vista de celular ---*/
 @media (max-width: 575px){

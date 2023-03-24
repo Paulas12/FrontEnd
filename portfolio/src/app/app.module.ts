@@ -64,7 +64,8 @@ import { interceptorProvider } from './service/interceptor-service';
     FormsModule,
     NgCircleProgressModule.forRoot({})
   ],
-  providers: [ interceptorProvider
+  providers: [ 
+    
   ],
   bootstrap: [AppComponent]
 })
