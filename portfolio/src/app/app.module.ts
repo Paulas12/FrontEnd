@@ -32,6 +32,7 @@ import { HomeComponent } from './componentes/home/home.component';
 import { LoginComponent } from './componentes/login/login.component';
 import { interceptorProvider } from './service/interceptor-service';
 import { NeweducacionComponent } from './componentes/educacion/neweducacion.component';
+import { EditeducacionComponent } from './componentes/educacion/editeducacion.component';
 
 @NgModule({
   declarations: [
@@ -57,7 +58,8 @@ import { NeweducacionComponent } from './componentes/educacion/neweducacion.comp
     FooterComponent,
     HomeComponent,
     LoginComponent,
-    NeweducacionComponent
+    NeweducacionComponent,
+    EditeducacionComponent
   ],
   imports: [
     BrowserModule,
