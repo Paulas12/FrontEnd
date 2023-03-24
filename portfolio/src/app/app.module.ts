@@ -26,10 +26,12 @@ import { FooterComponent } from './componentes/footer/footer.component';
 
 import { NgCircleProgressModule } from 'ng-circle-progress';
 
+//Conectar back con el front
 import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './componentes/home/home.component';
 import { LoginComponent } from './componentes/login/login.component';
 import { interceptorProvider } from './service/interceptor-service';
+import { NeweducacionComponent } from './componentes/educacion/neweducacion.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +56,8 @@ import { interceptorProvider } from './service/interceptor-service';
     Skills2Component,
     FooterComponent,
     HomeComponent,
-    LoginComponent
+    LoginComponent,
+    NeweducacionComponent
   ],
   imports: [
     BrowserModule,
@@ -63,9 +66,7 @@ import { interceptorProvider } from './service/interceptor-service';
     FormsModule,
     NgCircleProgressModule.forRoot({})
   ],
-  providers: [
-    interceptorProvider
-  ],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
