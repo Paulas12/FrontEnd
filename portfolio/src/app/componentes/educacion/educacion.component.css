@@ -1,7 +1,25 @@
 .row{
-    padding: 20px;
+    margin-left: 1cm;
 }
 
-h1, h2{
-    display: inline;
+#educacion{
+    width: 90%;
+    margin: auto;
+}
+
+.card:hover {
+    filter: opacity(.5); 
+}
+
+.card{
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+}
+
+#tamaño{
+    height: 180px;
+    width: 180px;
 }
