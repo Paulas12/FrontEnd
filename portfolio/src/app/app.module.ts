@@ -55,7 +55,7 @@ import { interceptorProvider } from './service/interceptor-service';
     Skills2Component,
     FooterComponent,
     HomeComponent,
-    LoginComponent
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
