@@ -32,6 +32,7 @@ import { HomeComponent } from './componentes/home/home.component';
 import { LoginComponent } from './componentes/login/login.component';
 import { interceptorProvider } from './service/interceptor-service';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -65,7 +66,6 @@ import { interceptorProvider } from './service/interceptor-service';
     NgCircleProgressModule.forRoot({})
   ],
   providers: [ 
-    
   ],
   bootstrap: [AppComponent]
 })
